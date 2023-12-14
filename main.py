@@ -10,7 +10,7 @@ def draw_color(color):
     root = Tk()
     canvas = Canvas(root)
     canvas.pack()
-    canvas.create_rectangle(20, 20, 200, 200, fill=color, width=1)
+    canvas.create_rectangle(10, 10, 200, 200, fill=color, width=1)
     root.mainloop()
 
 
